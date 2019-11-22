@@ -1,0 +1,33 @@
+{
+    "name": "Eno",
+    "manifest_version": 2,
+    "version": "0.73",
+    "description": "😁",
+    "content_security_prolicy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+    "icons": {
+        "16": "public/icon/eno-logo.png",
+        "48": "public/icon/eno-logo.png",
+        "128": "public/icon/eno-logo.png"
+    },
+    "run_at": "document_start",
+    "content_scripts": [
+        {
+            "matches": [
+                "https://*/*",
+                "http://*/*"
+            ],
+            "js": [
+                "dist/axios.min.js",
+                "dist/index.dev.js"
+            ]
+        }
+    ],
+    "browser_action": {
+        "default_title": "",
+        "default_icon": {
+            "16": "public/icon/eno-logo.png",
+            "48": "public/icon/eno-logo.png",
+            "128": "public/icon/eno-logo.png"
+        }
+    }
+}

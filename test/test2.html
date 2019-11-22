@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script>
+function modifyResponse(response) {
+    if (this.readyState === 4) {
+        console.log(response.target.response);
+    }
+}
+XMLHttpRequest.prototype.open = openBypass(XMLHttpRequest.prototype.open);
+function openBypass(original_function) {
+    return function (method, url, async) {
+        // 保存请求相关参数
+        this.requestMethod = method;
+        this.requestURL = url;
+        this.addEventListener("readystatechange", modifyResponse);
+        return original_function.apply(this, arguments);
+    };
+}
+    </script>
+    <script>
+        ; (async () => {
+            let data = await axios.get('https://cnodejs.org/api/v1/topics');
+            console.log(data);
+        })();
+    </script>
+</body>
+
+</html>
