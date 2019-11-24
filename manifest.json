@@ -2,7 +2,7 @@
     "name": "Eno",
     "manifest_version": 2,
     "version": "0.73",
-    "description": "😁",
+    "description": "记录健码😁",
     "content_security_prolicy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
     "icons": {
         "16": "public/icon/eno-logo.png",
