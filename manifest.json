@@ -1,15 +1,13 @@
 {
-    "name": "Eno",
+    "name": "Spy",
     "manifest_version": 2,
     "version": "0.73",
-    "description": "记录健码😁",
-    "content_security_prolicy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+    "description": "This extension allows you to quickly see a DOM element's attributes by simply hovering your mouse over it inside your browser.",
     "icons": {
         "16": "public/icon/eno-logo.png",
         "48": "public/icon/eno-logo.png",
         "128": "public/icon/eno-logo.png"
     },
-    "run_at": "document_start",
     "content_scripts": [
         {
             "matches": [
