@@ -16,6 +16,8 @@ Help troubleshoot a UI bug
 Ensure that your app's DOM elements are working as expected (getting the right class on click, etc)
 Find out how another web app is structured
 
+# Thanks
+
 https://github.com/eddieherm/spyon
 
 # Keycodes
