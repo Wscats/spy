@@ -1,3 +1,23 @@
+# SpyOn
+
+A simple module that displays DOM attributes on mouseover inside a tooltip.
+
+# Demo
+SpyOn Demo
+
+# Instructions
+
+Copy and paste the entire code into your web console
+Include the JS file in your code base
+This is implemented as an IIFE so the spy is turned on immediately upon execution.
+
+# Use cases
+Help troubleshoot a UI bug
+Ensure that your app's DOM elements are working as expected (getting the right class on click, etc)
+Find out how another web app is structured
+
+https://github.com/eddieherm/spyon
+
 # Keycodes
 
 | Key Name      | Constant          | Value |
