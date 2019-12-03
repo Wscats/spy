@@ -1,12 +1,10 @@
-# SpyOn
+# Spy
 
 Download: [Google Extension](https://chrome.google.com/webstore/detail/spy/fjidbhefebofcjhnjbifaejndlhlffoo?hl=zh-CN)
 
 A simple module that displays DOM attributes on mouseover inside a tooltip.
 
 # Demo
-
-SpyOn Demo
 
 <img width="400" src="./public/screenshot/1.png">
 
@@ -23,7 +21,11 @@ Find out how another web app is structured
 
 # Thanks
 
-https://github.com/eddieherm/spyon
+- [spyon](https://github.com/eddieherm/spyon)
+
+## License
+
+Spy is released under the MIT.
 
 <!-- # Keycodes
 
