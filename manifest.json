@@ -1,12 +1,12 @@
 {
     "name": "Spy",
     "manifest_version": 2,
-    "version": "0.73",
+    "version": "0.74",
     "description": "This extension allows you to quickly see a DOM element's attributes by simply hovering your mouse over it inside your browser.",
     "icons": {
-        "16": "public/icon/eno-logo.png",
-        "48": "public/icon/eno-logo.png",
-        "128": "public/icon/eno-logo.png"
+        "16": "public/icon/eno-logo-128.png",
+        "48": "public/icon/eno-logo-128.png",
+        "128": "public/icon/eno-logo-128.png"
     },
     "content_scripts": [
         {
@@ -23,9 +23,9 @@
     "browser_action": {
         "default_title": "",
         "default_icon": {
-            "16": "public/icon/eno-logo.png",
-            "48": "public/icon/eno-logo.png",
-            "128": "public/icon/eno-logo.png"
+            "16": "public/icon/eno-logo-128.png",
+            "48": "public/icon/eno-logo-128.png",
+            "128": "public/icon/eno-logo-128.png"
         }
     }
 }

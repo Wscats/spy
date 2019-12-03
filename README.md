@@ -1,9 +1,14 @@
 # SpyOn
 
+Download: [Google Extension](https://chrome.google.com/webstore/detail/spy/fjidbhefebofcjhnjbifaejndlhlffoo?hl=zh-CN)
+
 A simple module that displays DOM attributes on mouseover inside a tooltip.
 
 # Demo
+
 SpyOn Demo
+
+<img width="400" src="./public/screenshot/1.png">
 
 # Instructions
 
@@ -20,7 +25,7 @@ Find out how another web app is structured
 
 https://github.com/eddieherm/spyon
 
-# Keycodes
+<!-- # Keycodes
 
 | Key Name      | Constant          | Value |
 | ------------- | ----------------- | ----- |
@@ -140,4 +145,4 @@ https://github.com/eddieherm/spyon
 | Back Slash    | KEY_BACK_SLASH    | 220   |
 | Close Bracket | KEY_CLOSE_BRACKET | 221   |
 | Quote         | KEY_QUOTE         | 222   |
-| Meta          | KEY_META          | 224   |
+| Meta          | KEY_META          | 224   | -->
